@@ -1,0 +1,83 @@
+.gridcontainer {
+	display: grid;
+	grid-template: "head head" "sec sec" "foot boot";
+	row-gap: 3px;
+	background: gold;
+	border: 10px dashed gold;
+}
+.item {
+	background-color: skyblue;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+.head {
+	grid-area: head;
+}
+.sec {
+	grid-area: sec;
+}
+.foot {
+	grid-area: foot;
+}
+.boot {
+	grid-area: boot;
+}
+h2 {
+	color: skyblue;
+	background-color: brown;
+	text-align: center;
+}
+.see-result {
+	color: white;
+	background-color: skyblue;
+	border: solid 3px gold;
+	padding: 4px 0px 4px 0px;
+	text-align: center;
+}
+body{
+	background: #874628;
+	border: 6px solid gold;
+}
+button {
+	color: white;
+	background: orange;
+	margin-left: 430px;
+	padding: 20px 100px 20px 100px;
+	border: solid 3px white;
+}
+.button2 {
+	color: #748647;
+	background: white;
+	margin-left: 420px;
+	padding: 20px 100px 20px 100px;
+	border: solid 3px orange;
+}
+.input {
+	margin-left: 500px;
+	background: lightblue;
+}
+.input2 {
+	margin-left: 520px;
+	background: lightblue;
+}
+.result {
+	text-align: center;
+	color: lime;
+}
+.Final-result {
+	text-align: center;
+	color: Gold;
+	font-family: sans-serif;
+	background: #effefe;
+	font-size: 1.2em;
+	border: solid 5px skyblue;
+}	
+.main {
+	font-size: 0.00000001em;
+	color: #874628;
+}
+.end {
+	text-align: center;
+	color: grey;
+}
